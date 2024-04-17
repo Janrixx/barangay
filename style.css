@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  color: wheat;
+  text-shadow:0 0 8px gray,
+              0 0 12px gray,
+              0 2px gray;
+}
+h2{
+  color:whitesmoke;
+  text-shadow:0 0 8px gray,
+              0 0 12px gray,
+              0 2px gray;
+}
+.building{
+position: absolute;
+top:58%;
+left:50%;
+transform: translate(-50%, -50%);
+height: 600px;
+width: 500px;
+background-color:royalblue;
+border:4px outset white;
+z-index:-1;
+}
+.logo-box{
+  margin-top: 10px;
+  margin-left:10px;
+  position: absolute;
+  height: 110px;
+  width:250px;
+  border: 3px outset white;
+}
+
+.logo{
+  position: absolute;
+  background-image: url(j.jpg);
+  background-size: 70px;
+  border-radius: 50%;
+  margin-top:10px;
+  margin-left:10px;
+  height:90px;
+  width: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+  filter: drop-shadow(4px 2px 0.5px black)
+}
+p{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow:3px 4px 1px black,
+              3px 4px 1px black,
+              2px 4px 1px black;
+}
+.UA{
+  position: absolute;
+  font-size:70px;
+  margin-top: -21%;
+  margin-left: 50%;
+}
+.A{
+  margin-top: 50px;
+  margin-left: 55%;
+  display: flex;
+  column-gap: 35px;
+}
+.dow{
+  background-color: grey;
+  height: 20px;
+  width: 20px;
+  border: 2px inset white;
+}
+.B{
+  margin-top: 65px;
+  margin-left: 5%;
+  display: flex;
+  column-gap: 35px;
+}
+
+.Door{
+  margin-top: 26px;
+  margin-left: 42%;
+  display: flex;
+}
+.door{
+  background-color: grey;
+  height: 58px;
+  width: 38px;
+  border: 2px inset white;
+}
+.o{
+  margin-left:29px;
+}
+.p{
+  margin-left:2.5px;
+}
+.flag{
+  border: 4px outset white;
+  position: absolute;
+  top:30%;
+  left:25%;
+  transform: translate(-87.6%, 68%);
+  height: 100px;
+  width: 170px;
+}
+.blue{
+  position: absolute;
+  top:50%;
+  left:25%;
+  transform: translate(-90%, -80%);
+  border-top: 50px solid blue;
+  height: 40px;
+  width: 120px;
+  border-left:50px solid transparent;
+}
+.red{
+  position: absolute;
+  top:50%;
+  left:25%;
+  transform: translate(-90%, -69%);
+  border-bottom: 50px solid red;
+  height: 40px;
+  width: 120px;
+  border-left:50px solid transparent;
+}
+.white{
+    position: absolute;
+    top:50%;
+    left:18.5%;
+    transform: translate(-100%, -73%);
+    border-top: 50px solid transparent;
+    border-left: 55px solid white;
+    height: 0;
+    width: 0;
+    border-bottom:50px solid transparent;
+}
+.pole{
+  width:10px;
+  height:150px;
+  border-left:15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 420px solid grey;
+  margin-left:12.8%;
+  margin-top:2.6%;
+}
+.base{
+  width:70px;
+  height: 5px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent ;
+  border-bottom: 40px solid dimgrey;
+  margin-top: -1%;
+  margin-left:10%;
+
+}
